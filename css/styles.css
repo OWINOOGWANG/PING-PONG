@@ -1,6 +1,49 @@
+#header{
+	font-family: 'Metamorphous', cursive;
+	font-size: 300px;
+	padding-right: 500px;
+	text-align: center;
+	border-bottom: 10px solid black;
+	opacity: 1.0px
+	padding:0px;
+	margin:0px;
 
-#PINGPONG {
-  background-color: black;
-  color: white;
-  text-align: right;
+}
+#header{
+	padding:0;
+	margin: 0;
+	}
+
+#paragraphs{
+	font-family: 'Metamorphous', cursive;
+	
+
+}
+
+#about-h1{
+	padding-right: 200px;
+	text-align: left;
+	color: blue;
+	font-family: 'Metamorphous', cursive;
+}
+
+#part1{
+	color: Purple;
+	font-family: 'Metamorphous', cursive;
+}
+#part2{
+	color: purple;
+	font-family: 'Metamorphous', cursive;
+}
+
+#display{
+	padding-right: 550px;
+}
+#starter{
+	color: grey;
+	font-family: 'Metamorphous', cursive;
+}
+#part3{
+	color: grey;
+	font-family: 'Metamorphous', cursive;
 }

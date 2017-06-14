@@ -1,15 +1,26 @@
-##   WEBPAGE NAME
-###  PING PONG
-##   NAMES OF CONTRIBUTORS
-###  OWINO BEN OGWANG
-##   DESCRIPTION OF THE PROJECT'S PURPOSE
 
-This is a web application that **takes a number** from a user and **returns** a range of numbers **from 1 to the chosen number** with the following **exceptions**:
+#WEBPAGE NAME
+##PING-PONG
 
-## RULES
+#NAMES OF CONTRIBUTORS
+##OWINO BEN OGWANG
 
-1. Numbers divisible by 3 become "ping"
-2. Numbers divisible by 3 become "pong"
-3. Numbers divisible by 3 and 5 become "pingpong"
+#DESCRIPTION OF THE PROJECT'S PURPOSE
+...PING-PONG is a **web application** that **takes** a number from a user and **returns** a range of numbers from 1 to the chosen number with the following exceptions:
 
-A user should be able to enter a **new number** and see **new results over and over again**.
+    1.Numbers divisible by 3 are replaced with "ping"
+    2.Numbers divisible by 5 are replaced with "pong"
+    3.Numbers divisible by 15 are replaced with "pingpong"
+
+...A user should be able to **enter a new number** and see _new results_ over and over again.
+
+#TECHNOLOGIES USED
+..*html
+..*css
+..*bootstrap
+..*javascript
+..*jquery
+..*markdown
+
+
+**HAVE FUN!!!**
