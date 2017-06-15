@@ -1,69 +1,67 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 
 <head>
-
   <meta charset="UTF-8">
   <meta name="description" content="PORTFOLIO">
   <meta name="keywords" content="HTML,CSS">
   <meta name="author" content="OWINO BEN OGWANG">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="ping pong/css/bootstrap.css">
-  <link rel="stylesheet" href="ping pong/css/styles.css">
-  <script src="ping pong/js/jquery.min.js"></script>
-  <script src="ping pong/js/bootstrap.min.js"></script>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Keania+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Ping-Pong</title>
 </head>
-
-<title>
-  <h1> <strong> PING PONG </h1> </strong>
-</title>
-
 <body>
+  <div class="total" style="background-color: #e4f7e4;">
+    <div class="header-part">
+      <h1 id="header" style="text-align:center;"><strong> Ping Pong </strong></h1>
 
-  <div class="container-fluid">
+      <pre>
+        <h2 id="rules">Ping Pong Rules</h2>
+        <h3><ol id="conditions">
+        <li>Numbers divisible by 3 becomes "ping"</li>
 
-    <div class="jumbotron row1">
-      <div class="col-md-12" id="PINGPONG">
-        <h1 style="text-align:center;  line-height:1.8; font-family:hunky dory; font-size: 100px;background: -webkit-linear-gradient(white, #0065ff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;}">
-  <strong> PING PONG </strong> </h1>
-        <h2 style="text-align:center; font-size: 60px; color:#21ff00;"> Let's Play </h2></pre>
-        </a>
+        <li>Numbers divisible by 5 becomes "pong"</li>
+
+        <li>Numbers divisible by 15 becomes "pingpong"</li>
+      </ol>
+    </pre>
+      </h3>
+    </div>
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12">
+          <form id="pingPong">
+            <div class="form-group" style="text-align:center;">
+              <h1 id="call">Let's play!</h1>
+              <h2 style="number"><label for="number">Enter your number:</label>
+              <input class="formcontrol" required=" " type="text "></input>
+              <button class="btn" style="color:blue;">Ping-Pong!</button></h2>
+            </div>
+            <div id="userOutput"></div>
+          </form>
+        </div>
+
+        <div class="row" style="text-align:left;">
+          <div class="col-md-12 col-sm-12 col-xm-12" style="color: black;">
+            <h3 id="about">About ping p<ong:</h3> </div>
+        </div>
+
+        <div class="row" style="text-align:left;">
+          <div class="col-md-6 col-sm-6 col-xm-6" style="color: black;">
+            <h3 id="creator">Created By: </h3>
+            <p id="name">OWINO BEN OGWANG </p>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xm-6" style="color: black;">
+            <h3 id="link">GitHub User Url:</h3>
+            <p> https://github.com/OWINOOGWANG </p>
+          </div>
+        </div>
       </div>
-
-    </div>
-
-
-
-    <div class="row2" style="background-image:url(pong.jpg)">
-      <div class="col-md-12" style="text-align:center; color:white;">
-        <h1 style="font-size:70px;"> <strong> RULES </strong> </h1>
-        <P>
-          <h1> Ping Pong will count up to your number from 1 with the following exceptions:</h1> </p>
-
-        <pre><h1> <ol type="1">
-          <li> 1. Numbers divisible by 3 become "ping"</li>
-          <li> 2. Numbers divisible by 3 become "pong" </li>
-          <li>  3.Numbers divisible by 3 and 5 become "pingpong" </li>
-        </ol>
-        </h1>
-      </pre>
-
-      </div>
-    </div>
-
-    <div class="row3" style="background-color:#000000;text-align:left; color:white;">
-      <pre>   <h1 > <strong> About Ping Pong </strong> </h1>
-       <h2> <strong> Created By: </strong> Kit Fisto </h2>
-      <h2> <strong> GitHub Username/URL: greensaber </strong>  </h2>
-      <h2> <strong> Level 2 Test for: Java </strong> </h2> </pre>
-
-    </div>
-
-  </div>
-
+      <script src="http://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+      <script src="javascript/scripts.js"></script>
 </body>
 
 </html>

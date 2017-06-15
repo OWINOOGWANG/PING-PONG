@@ -23,4 +23,4 @@ A user should be able to **enter a new number** and see _new results_ over and o
 - markdown
 
 
-**HAVE FUN!!!**
+**HAVE FUN WITH MATH!!!**
