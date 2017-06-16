@@ -23,7 +23,6 @@ $(document).ready(function() {
     var result = pingPong(userInput);
     result.forEach(function(output) {
       $("#userOutput").append("<li>" + output + "</li>");
-
     });
   });
 });
