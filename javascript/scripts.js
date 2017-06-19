@@ -14,11 +14,10 @@ function pingPong(userInput) {
   return result;
 
 }
-
+console.log(userInput);
 $(document).ready(function() {
   $("form#pingPong").submit(function(event) {
     event.preventDefault();
-    //$("#userOutput").empty();
     var userInput = parseInt($("input#number").val());
     var result = pingPong(userInput);
     result.forEach(function(output) {
